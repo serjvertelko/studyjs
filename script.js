@@ -15,3 +15,12 @@ const   a = prompt('Один из последних просмотренных 
 personalMovieDB.movies[a] = b;
 personalMovieDB.movies[c] = d;
 console.log(personalMovieDB);
+
+let num = 50;
+for (let i = 1; i<100; i++){
+    if (num === 55){
+        break;
+    }
+num++;
+console.log(num);
+}
